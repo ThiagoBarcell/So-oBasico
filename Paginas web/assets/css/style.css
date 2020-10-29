@@ -1,0 +1,195 @@
+body{
+    background-color: #DDCC99;
+    font-family: Verdana, liberation;
+    color: #332277;
+    font-size: 18px;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    
+}
+
+a {
+    color: #332277;
+}
+
+
+
+nav {
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Opens Sans', sans-serif;
+}
+
+ol, ul {
+    line-height: 200%;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+hr:hover{
+    background-color: rgb(51, 34, 119);
+}
+.endereço address{
+    color: rgb(51, 34, 119);
+    text-align: right;
+    font-size: 14px;
+}
+.navegation ul li a, .navegation ul li a:visited {
+    text-decoration: none;
+    color: #808080;
+    
+  
+}
+
+.navegation ul li a:hover {
+    text-decoration: underline;
+}
+.navegation ul {
+    list-style-type:circle;
+    line-height: 230%;
+    margin-top: 40px;
+
+}
+
+.navegation ul li {
+    cursor: pointer;
+}
+
+
+
+.toldoPoderoso {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+    
+
+}
+
+.logo {
+    border-bottom: 3px solid #332277;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+}
+
+.links {
+  display: flex;
+}
+
+/* Materiais */
+
+
+.materiais_block {
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.materiais_block h1 {
+    text-align: center;
+}
+
+.bloco {
+    background-color: #eecb87;
+    width: 340px;
+    border: 2px solid #000055;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 50px;
+    font-size: 16px;
+    
+    
+
+}
+
+.bloco ol {
+    list-style-type: upper-alpha;
+    color: #AA0000;
+}
+
+.bloco ol li ul li {
+    list-style-type: square;
+}
+
+/************ Modelos ***********/
+
+.modelos {
+    margin: 0 auto;
+}
+
+.modelos h1 {
+    text-align: center;
+}
+
+.tabMod ul li  {
+    list-style: none;
+
+}
+
+.tabMod ul {
+    padding: 0 10px;
+}
+
+.tabMod {
+    border-collapse: collapse;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #EEEE99;
+    font-family: 'Muli', sans-serif;
+    border: 2px solid ;
+    
+}
+
+.tabMod th {
+    background-color: #33aa66;
+}
+
+
+.tabMod ul li {
+    border-bottom: 2px solid #269;
+    width: 100%;
+}
+
+td, th {
+    padding: 6px 12px 6px 12px;
+    height: 30px;
+    border: 3px solid #226699;
+    
+}
+thead {
+    color: #FFF;
+}
+
+.colTH{
+    text-align: left;
+    color: #FFF;
+    background-color: #1188cc;
+
+}
+
+.imgCel img {
+    height: 60px;
+    width: 60px;
+}
+
+.imgCel {
+    background-color: #FFF;
+}
+
+.preço {
+    font-weight: bold;
+    color: #EE0000;
+    vertical-align: middle;
+}
+
